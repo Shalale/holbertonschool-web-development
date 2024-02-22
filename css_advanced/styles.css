@@ -1,0 +1,352 @@
+/* ulduzu span ele */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/source sans pro/your-font-file.woff2') format('woff2'),
+        /* Add different font formats if needed */
+        /* Add additional sources or font formats as necessary */
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    /* Use the defined font family in your styles */
+}
+
+header {
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+}
+
+ul li {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+main {
+    background-image: url("https://i.ibb.co/J30HRrM/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 120px;
+    color: white;
+}
+
+.title>p {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    margin-inline: 15px;
+    line-height: 20px;
+}
+
+.banner>div>h2 {
+    margin-top: 150px;
+}
+
+.main-btn {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 13px 20px;
+    font-size: 13px;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+.important {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: white;
+    line-height: 40.22px;
+    text-align: center;
+}
+
+.learn {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.learn>article {
+    vertical-align: top;
+    color: white;
+    text-align: center;
+    width: 20%;
+    height: 237px;
+}
+
+.learn h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.learn>article p {
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+    color: white;
+    height: 25rem;
+    font-weight: 400;
+}
+
+.testimonials img {
+    width: 160;
+    height: 160px;
+    border-radius: 200px;
+    margin: 3rem;
+}
+
+.testimonials-content blockquote {
+    margin-bottom: 3rem;
+    width: 70%;
+}
+
+.testimonials-content h3 {
+    font-size: 20px;
+}
+
+.testimonials-content p {
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+.tutorials {
+    padding: 4%;
+    vertical-align: top;
+}
+
+.tutorials div{
+    margin: 20px;
+}
+
+.tutorials h2 {
+    color: #071629;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+}
+
+.tutorial-subject {
+    display: inline-block;
+    margin: 4% auto;
+    padding: 10px;
+    width: 20%;
+}
+
+.tutorials blockquote img {
+    width: 30px;
+    height: 30px;
+}
+
+.tutorial-subject h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px;
+    color: #071629;
+}
+
+.tutorial-subject h4 {
+    font-size: 14px;
+    margin-left: 15px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #C271FF;
+}
+
+.tutorial-subject p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #071629;
+    opacity: 50.16%;
+}
+
+blockquote {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+blockquote img {
+    width: 30px;
+    height: 30px;
+}
+
+quote {
+    display: flex;
+    align-items: center;
+}
+
+
+/* free membership */
+.free-membership {
+    background-color: #071629;
+    color: #FFFFFF;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.free-membership h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 10%;
+}
+
+.free-membership p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.free-mem-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem 4rem;
+}
+
+.free-mem-content div {
+    width: 200px;
+    height: 150px;
+}
+
+/* section */
+
+.faq {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.faq h2 {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    color: #071629;
+    ;
+}
+
+.faq h3 {
+    color: #071629;
+    line-height: 20px;
+    font-size: 16px;
+}
+
+.faq p {
+    color: #071629;
+    opacity: 50.16%;
+    margin: 2.5rem 0;
+}
+
+.first-faq {
+    width: 75%;
+    text-align: left;
+}
+
+.first-faq>div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    width: 100%;
+}
+
+.first-faq>div>div {
+    width: 27%;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #071629;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5rem 1rem;
+    padding-bottom: 0;
+}
+
+footer>div {
+    width: 75%;
+}
+
+footer {
+    background-color: #071629;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5rem 1rem;
+    padding-bottom: 0;
+}
+
+footer>div {
+    width: 75%;
+}
+
+footer>div>div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+footer>div>div>div {
+    display: flex;
+    gap: 25%;
+}
+
+footer>div>p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 12px;
+    opacity: 35.17%;
+    margin-bottom: 3rem;
+}

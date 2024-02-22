@@ -1,0 +1,1 @@
+This is a css file of this figama design https://www.figma.com/file/XrEAsu1vQj5fhVaNG38d2W/Homepage?type=design&node-id=0-1&mode=design&t=Tc3d91OoRGJ90gRM-0
